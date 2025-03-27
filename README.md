@@ -5,7 +5,7 @@
 * Use "npm run dev" to run it on local host.
 * I have published the site on github page as well .
 
-* # Link : https://nikpathak9.github.io/Video-Caption/
+# Link : https://nikpathak9.github.io/Video-Caption/
 
 # How to use it ?
 
