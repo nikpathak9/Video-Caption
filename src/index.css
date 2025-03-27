@@ -1,0 +1,99 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  gap: 10px;
+  margin: 20px 0px;
+  font-size: 22px;
+}
+
+.form input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.form video {
+  width: 100%;
+  height: auto;
+  position: relative; /* To allow for absolute positioning of captions */
+}
+
+.form button {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+/* Add a container for the video and caption overlay */
+.video-container {
+  position: relative; /* Required to position the caption overlay correctly */
+  display: inline-block;
+}
+
+/* Style for the caption overlay */
+.caption-overlay {
+  position: absolute;
+  bottom: 15%; /* Position the caption towards the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90%; /* Limit the width to 90% of the video width */
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  word-wrap: break-word; /* Ensure long words break and wrap */
+  overflow-wrap: break-word; /* Support for different browsers */
+  white-space: normal; /* Allow text to wrap into multiple lines */
+  box-sizing: border-box;
+}
+
+/* Additional styling for the captions list */
+.captions ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.captions li {
+  margin: 5px 0;
+}
+
+.captions li button {
+  margin-left: 10px;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
